@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+    margin: 0;
+    max-width: 90rem;
+    min-width: 90rem;
+    height: 64rem;
+    max-height: 64rem;
+    min-height: 64rem;
+    /*border: 2px solid black;*/
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template: 
+    "header header"
+    "aside main";
+}
+header{
+    background-image: url(/assets/images/Menu.png);
+    grid-area: header;
+    width: 1440px;
+    height: 56px;
+}
+main{
+    background-color: #fafafa;
+    width: 1222px;
+    height: 968px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12";
+    grid-area: main;
+    box-sizing: border-box;
+    padding: 24px 44px 130px 28px;
+    gap: 16px;    
+}
+main .img{
+    /*border: 1px solid;*/  
+}
+main #img1{
+    background-image: url(/assets/images/Video\ \(1\).png);
+    justify-content: center;
+
+}
+main #img2{
+    background-image: url(/assets/images/Video\ \(2\).png);
+    justify-content: center;
+
+}
+main #img3{
+    background-image: url(/assets/images/Video\ \(3\).png);
+    justify-content: center;
+
+}
+main #img4{
+    background-image: url(/assets/images/Video\ \(4\).png);
+    justify-content: center;
+
+}
+main #img5{
+    background-image: url(/assets/images/Video\ \(5\).png);
+    justify-content: center;
+
+}
+main #img6{
+    background-image: url(/assets/images/Video\ \(6\).png);
+    justify-content: center;
+
+}
+main #img7{
+    background-image: url(/assets/images/Video\ \(7\).png);
+    justify-content: center;
+
+}
+main #img8{
+    background-image: url(/assets/images/Video\ \(8\).png);
+    justify-content: center;
+
+}
+main #img9{
+    background-image: url(/assets/images/Video\ \(9\).png);
+    justify-content: center;
+
+}
+main #img10{
+    background-image: url(/assets/images/Video\ \(10\).png);
+    justify-content: center;
+
+}
+main #img11{
+    background-image: url(/assets/images/Video\ \(11\).png);
+    justify-content: center;
+
+}
+main #img12{
+    background-image: url(/assets/images/Video.png);
+    justify-content: center;
+
+}
+
+aside{
+    background-image: url(/assets/images/Sidebar.png);
+    grid-area: aside;
+    width: 218px;
+    height: 968px;
+}
